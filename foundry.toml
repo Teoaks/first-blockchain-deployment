@@ -2,5 +2,8 @@
 src = "src"
 out = "out"
 libs = ["lib"]
-
+remappings = [
+    "@chainlink/contracts/=lib/chainlink-brownie-contracts/contracts/",
+] #If you see chainlink/contracts replace it with chainlink brownie bla bla...
+ffi = true
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
